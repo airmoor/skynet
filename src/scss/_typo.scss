@@ -1,0 +1,90 @@
+@import 'variables';
+
+h1 {
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-style: normal;
+  font-size: 28px;
+  line-height: 32px;
+  margin: 0;
+}
+
+h4 {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+h5 {
+  font-style: normal;
+  font-size: 16px;
+  margin: 0;
+}
+
+h6 {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 17px;
+  margin: 0;
+}
+
+/*
+* стандартное выравнивание
+*/
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fullwidth {
+  width: 100%
+}
+
+.p-b-16 {
+  padding-bottom: 16px;
+}
+
+.m-t-16 {
+  margin-top: 16px;
+}
+
+.m-b-16 {
+  margin-bottom: 16px;
+}
+
+.m-y-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.m-r-16 {
+  margin-right: 16px;
+}
+
+.m-l-16 {
+  margin-left: 16px;
+}

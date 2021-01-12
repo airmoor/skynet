@@ -1,0 +1,24 @@
+@import 'variables';
+html{
+  overflow-x: hidden;
+}
+body {
+  cursor: default;
+  font-family: $font-family;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+* стандартные отсупы справа и слева для лейаута
+*/
+.layout{
+   display: block;
+   flex: none;
+   margin-right: auto;
+   margin-left: auto;
+   width: calc(100% - 32px);
+   max-width: 1200px;
+   padding: 16px;
+ }
+
