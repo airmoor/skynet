@@ -11,3 +11,6 @@
 @mixin transition-long() {
   transition: 0.6s ease-in-out;
 };
+
+.route-enter-active, .route-leave-active{transition: opacity .7s}
+.route-enter, .route-leave-to{opacity: 0;}
